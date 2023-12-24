@@ -1,0 +1,68 @@
+div {
+    padding: 5px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    font-size: 24px;
+    border-radius: 5px;
+    border-color: #cbcbcb;
+    color: #3f3f3f;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 200px;
+    background-color: #cbcbcb;
+    width: 350px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+
+.screen {
+    display: flex;
+    justify-content: center;
+}
+
+.display {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width:300px;
+    height: 80px;
+    font-size: 42px;
+    background-color: white;
+    border-radius: 5px;
+    border-color: #cbcbcb;
+}
+
+.clear,
+.delete {
+    width: 150px;
+    height: 60px;
+}
+
+.clear {
+    background-color: #ffcccb;
+}
+
+.delete {
+    background-color: #ffd8b2;
+}
+
+.row button {
+    width: 70px;
+    height: 60px;
+}
+
+.row,
+.row2 {
+   display: flex;
+   justify-content: space-between;
+}
